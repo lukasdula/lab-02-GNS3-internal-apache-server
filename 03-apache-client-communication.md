@@ -118,7 +118,7 @@ curl http://192.168.10.10
 ```
 ![ping-curl-client-3](images/Pasted%20image%2020251003002907.png)
 
-#### Browser test (Client-3:
+#### Browser test (Client-3):
 
 - Open 
 
