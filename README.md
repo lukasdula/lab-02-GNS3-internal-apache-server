@@ -30,11 +30,11 @@ This lab builds on Lab 01 by extending the network functionality with a real app
 
 ## Lab Structure
 
-1. Initial Preparation**
+1. [Initial Preparation](01-initial-preparation.md)
     
-2. Basic Network Configuration**
+2. [Basic Network Configuration](02-basic-network-configuration.md)
     
-3.  Apache Client Communication
+3.  [Apache Client Communication](03-apache-client-communication.md)
 
 ## Key Features
 
