@@ -25,7 +25,7 @@ This lab builds on Lab 01 by extending the network functionality with a real app
 
 
 
-![](Pasted%20image%2020251003012203.png)
+![Typology-map](images/Pasted%20image%2020251003012203.png)
 
 
 ## Lab Structure
