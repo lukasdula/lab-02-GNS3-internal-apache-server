@@ -1,4 +1,4 @@
-# 3 - Apache Client Communication
+# **3 - Apache Client Communication**
 
 ## 3.1 Introduction
 
