@@ -53,9 +53,9 @@ This lab builds on Lab 01 by extending the network functionality with a real app
 
 ## Author's Note
 
-This lab was my first hands-on test with Apache2 in GNS3. It was rewarding to see the clients successfully load the custom page from the server after replacing the default Apache page. I also experimented with tcpdump to watch HTTP traffic flow, which gave me a deeper understanding of network communication.
+This lab was about setting up an Apache2 server and showing how it works in a network. It was great to see the clients successfully load the custom page from the server after replacing the default Apache page. I also used tcpdump to watch HTTP traffic flow, which helped me better understand network communication.
 
-Combining SSH, IP configuration, and Apache testing made this lab feel like a complete small-scale environment, and it showed how multiple services interact in practice.
+Combining SSH, IP configuration, and Apache testing made this lab feel like a small but complete environment, and it showed how different services work together in practice.
 
 ---
 
