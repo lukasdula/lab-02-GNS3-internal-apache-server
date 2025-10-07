@@ -53,9 +53,9 @@ This lab builds on Lab 01 by extending the network functionality with a real app
 
 ## Author's Note
 
-This lab was about setting up an Apache2 server and showing how it works in a network. It was great to see the clients successfully load the custom page from the server after replacing the default Apache page. I also used tcpdump to watch HTTP traffic flow, which helped me better understand network communication.
+This lab shows how to set up an Apache2 server and demonstrate its functions in a network. It is great to see the clients successfully load the custom page from the server after replacing the default Apache page. I also use tcpdump to watch HTTP traffic flow, which helps me better understand network communication.
 
-Combining SSH, IP configuration, and Apache testing made this lab feel like a small but complete environment, and it showed how different services work together in practice.
+Combining SSH, IP configuration, and Apache testing makes this lab feel like a small but complete environment, and it shows how different services work together in practice.
 
 ---
 
