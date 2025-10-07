@@ -60,4 +60,4 @@ Combining SSH, IP configuration, and Apache testing makes this lab feel like a s
 ---
 
 
-© 2025 – Lukas Dula | Home Network Lab & Portfolio
+© 2025 – Lukas Dula | Home Networking Lab & Portfolio
