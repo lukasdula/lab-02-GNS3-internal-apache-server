@@ -78,6 +78,8 @@ sudo apt install -y bind9
 ```
 ![Instal Bind9](images/Pasted%20image%2020250930010057.png)
 
+<br><br>
+
 ## **1.3 Service verification**
 
 ### SSH service
