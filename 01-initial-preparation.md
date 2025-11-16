@@ -7,6 +7,7 @@
 This note prepares the Xubuntu server for Lab 02 by installing the required packages while the **Cloud** node provides temporary internet access. The goal is to equip the server with essential services for client–server communication in an internal LAN: OpenSSH for remote access, Apache2 for HTTP service. Basic diagnostic tools are also installed to support testing throughout the lab. After installation and verification, the Cloud connection is removed and the lab continues in an internal network only.
 
 ![TYPOLOGY-map-1](images/Pasted%20image%2020251002004342.png)
+
 <br><br>
 
 ## **1.2 Steps** with configuration
