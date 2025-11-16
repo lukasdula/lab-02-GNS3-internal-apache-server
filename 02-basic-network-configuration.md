@@ -1,5 +1,6 @@
 # **2 - Basic Network Configuration**
 
+<br><br>
 
 ## **2.1 Introduction**
 
@@ -7,6 +8,8 @@
 In this part of the lab, the internal LAN uses static IP addresses for the router, server, and clients. The router works as the default gateway, and SSH remote access is needed between all devices. Because Cisco IOSv supports only older cryptographic algorithms, which modern OpenSSH disables by default, the Xubuntu SSH server must be changed to accept these legacy methods. This makes sure the router can connect to the server even with a newer OpenSSH version.
 
 ![TYPOLOGY-map-2](images/Pasted%20image%2020251002000750.png)
+
+<br><br>
 
 ## **2.2 Topology**
 
@@ -19,8 +22,7 @@ In this part of the lab, the internal LAN uses static IP addresses for the route
 |Xubuntu-Client-2|Gi0/0|Switch SW1|Gi0/2|192.168.10.11|255.255.255.0|192.168.10.1|
 |Xubuntu-Client-3|Gi0/0|Switch SW1|Gi0/3|192.168.10.12|255.255.255.0|192.168.10.1|
 
-
-
+<br><br>
 
 ## **2.3 Steps**
 
@@ -37,6 +39,7 @@ In this part of the lab, the internal LAN uses static IP addresses for the route
     
 - Perform diagnostic tests using ping and SSH sessions.
     
+<br><br>
 
 ## **2.4 Configuration**
 
@@ -63,6 +66,7 @@ write memory
 ```
 ![R1-CONFIGURATION](images/Pasted%20image%2020251001235018.png)
 
+<br><br>
 
 ## **2.5 Assign static IP to Xubuntu PCs**
 ### Xubuntu-1-Server
@@ -96,6 +100,8 @@ sudo ip addr add 192.168.10.12/24 dev ens3
 sudo ip route add default via 192.168.10.1
 ```
 ![xubuntu3-ip](images/Pasted%20image%2020251001190105.png)
+
+<br><br>
 
 ## **2.6 SSH Access**
 
@@ -171,7 +177,7 @@ ssh xubuntu2@192.168.10.11
 
 >Note.: The SSH client package is already preinstalled on Xubuntu, so there is no need to install it separately.
 
-
+<br><br>
 
 ## **2.7 Diagnostics**
 
@@ -212,6 +218,7 @@ ping 192.168.10.12
 ```
 ![ping-client-2-to-client-3](images/Pasted%20image%2020251001234927.png)
 
+<br><br>
 
 ## **2.8 Conclusion**
 
