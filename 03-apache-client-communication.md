@@ -1,10 +1,14 @@
 # **3 - Apache Client Communication**
 
+<br><br>
+
 ## 3.1 Introduction
 
 This final chapter verifies basic client communication with the Apache2 web server in the internal LAN. The server is reached by IP address, the default web page is opened, and then replaced with a simple custom page. Clients test access with `ping`, `curl`, and a web browser. Optional checks with `tcpdump` capture traffic.
 
 ![TOPOLOGY-map-3](images/Pasted%20image%2020251003010552.png)
+
+<br><br>
 
 ## 3.2 Steps
 
@@ -20,6 +24,7 @@ This final chapter verifies basic client communication with the Apache2 web serv
     
 6. Verify communication.
     
+<br><br>
 
 ## 3.3 Server –> check service and local access
 
@@ -56,6 +61,8 @@ curl http://192.168.10.10
 ![local-2](images/Pasted%20image%2020251002234921.png)
 
 The Apache default page is displayed (full HTML output is not shown due to length).
+
+<br><br>
 
 ## 3.4 Server -> change the default page
 
@@ -98,6 +105,8 @@ curl http://192.168.10.10
 
 The new custom page is displayed.
 
+<br><br>
+
 ## 3.5 Client tests -> curl and browser
 
 In this section, both clients test connectivity to the server. Pings confirm IP reachability and `curl` confirms HTTP service availability. A web browser finally displays the page in a graphical way.
@@ -131,6 +140,8 @@ http://192.168.10.10`
 
 custom page loads.
 
+<br><br>
+
 ## 3.6 Optional -> packet capture
 
 This optional step captures HTTP packets on the server. It helps confirm that requests from clients really reach the server’s network interface.
@@ -151,7 +162,7 @@ sudo tcpdump -i any -n icmp
 ```
 ![packet-capture-2](images/Pasted%20image%2020251003003717.png)
 
-
+<br><br>
 
 ## 3.7 Diagnostics
 
@@ -205,7 +216,7 @@ ping 192.168.10.10
 ```
 ![test-5](images/Pasted%20image%2020251003005608.png)
 
-
+<br><br>
 
 ## 3.8 Conclusion
 
